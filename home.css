@@ -1,0 +1,162 @@
+
+.nav{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas:
+    "top1 top2 top3 top4 top5 top6 top7 top8 top9 top10"
+    "m1 m2 m3 m4 m5 m6 m7 m8 m9 m10"
+    "b1 b2 b3 b4 b5 b6 b7 b8 b9 b10";
+    background-image: radial-gradient(rgb(0, 66, 128,0.75),rgb(0,66,128,0.25))
+}
+#resume{
+    grid-area: m8;
+}
+#signup{
+    grid-area: m9;
+}
+#login{
+    grid-area:m10;
+}
+#about{
+    grid-area:top1;
+}
+#employer{
+    grid-area: top2;
+}
+.lnav{
+    height: 22px;
+    width: 200px;
+    border-radius: 20px;
+    border-width: 1px;
+    margin: 5px;
+
+}
+.lnav:hover{
+    height: 32px;
+    width: 205px;
+    border-width: 2px;
+}
+.rnav{
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    border-width: 1px;
+    margin: 1px;
+}
+.rnav:hover{
+    height: 42px;
+    width: 202px;
+    border-width: 2px;
+}
+.firstquart{
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: radial-gradiant(rgb(250, 235, 215)),rgb(250,235,215,0.25)
+
+
+}
+#h1{
+    font-family: "Trirong", serif;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+#h4{
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    font-style: italic;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+#jobtype{
+    width:300px;
+    height:30px;
+    border-radius: 5px;
+    margin-left: 4px;
+    margin-right: 10px;
+}
+#joblabel{
+    position: relative;
+    bottom: 10px;
+    font-size: 16px;
+    font-weight: bold ;
+}
+#jobwhere{
+    width: 200px;
+    height:30px;
+    border-radius: 5px;
+    margin-left: 4px;
+    margin-right: 10px;
+}
+#wherelabel{
+    position: relative;
+    bottom: 10px;
+    font-size: 16px;
+    font-weight: bold ;
+}
+#search{
+    position: relative;
+
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 10px;
+    width: 85px;
+    height: 40px;
+    margin-left: 15px;
+    top: 2px;
+    border: 1px;
+    border-color: black;
+}
+#search:hover{
+    width: 87px;
+    height: 41px;
+    border: 2px;
+
+}
+.empty{height: 100px;}
+.foot{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top-width: 2px;
+    border-top-color: black;
+    border-left-color: white;
+    border-right-color:white;
+    border-bottom-color: white ;
+    border-style: ridge;
+}
+#states{
+    height: 20px;
+    width: 280px;
+}
+#interview{
+    height: 20px;
+    width: 280px;
+}
+#career{
+    height: 20px;
+    width: 280px;
+}
+#sex{
+    height:20px;
+    width: 280px;
+}
+#law{
+    height:20px;
+    width: 280px;
+}
